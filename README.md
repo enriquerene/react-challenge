@@ -1,6 +1,7 @@
 # Breaking Bad Name Highlighter App
 
 The Breaking Bad Name Highlighter is a React application that highlights the first occurrence of chemical elements' symbols within a given name and last name. It prioritizes symbols with two letters and ensures unique highlights between the name and last name fields.
+Visit it in [github pages](https://enriquerene.github.io/react-challenge/).
 
 ## Features
 
@@ -56,4 +57,5 @@ This command uses the `docker-compose.yml` file to build and start the applicati
 1. Enter a name in the "Name" input field.
 2. Enter a last name in the "Last Name" input field.
 3. Click the "Breakify" button to highlight the chemical element symbols within the name and last name.
+
 
