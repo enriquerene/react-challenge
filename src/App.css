@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+}
+
+.App .display {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.App .display .highlight {
+  background-color: green;
+}
+
+.App form {
+  width: 400px;
+}
+
+.App form .inputs {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App form .inputs .field {
+  text-align: left;
+}
+
+.App form .inputs label {
+  color: white;
+  font-size: 1.25rem;
+  margin: 5px 0;
+}
+
+.App form .inputs input {
+  max-width: 190px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.App form button[type=submit] {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
